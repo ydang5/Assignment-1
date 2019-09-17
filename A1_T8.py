@@ -6,14 +6,14 @@ TVOC = 2398
 if TVOC > 2200 and TVOC < 5500:
     print ("level 5, unhealty")
 
-if TVOC > 660 and TVOC <= 2200:
+elif TVOC > 660 and TVOC <= 2200:
     print ("level 4, poor")
 
-if TVOC > 220 and TVOC <=660:
+elif TVOC > 220 and TVOC <=660:
     print ("level 3, moderate")
 
-if TVOC > 65 and TVOC <= 220:
+elif TVOC > 65 and TVOC <= 220:
     print ("level 2, good")
 
-if TVOC <= 65:
+elif TVOC <= 65:
     print ("level 1, excellent")
